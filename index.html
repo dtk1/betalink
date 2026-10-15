@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Betalink · Gestionali Cloud per Hotel, Ristoranti e Bar · Dolomiti Trentino</title>
+  <meta name="description" content="Software gestionali all-in-one nati nelle Dolomiti: Gootel per Hotel e Appetito per Ristoranti. Sviluppato da albergatori per albergatori. 100% Cloud, conformità Alloggiati Web (PS) e ISTAT automatica.">
+  <meta name="keywords" content="gestionale hotel trentino, pms hotel cloud, software alberghiero dolomiti, andalo, gootel, appetito ristorante, simple booking, epson stampanti fiscali">
+  <meta name="author" content="Betalink Snc">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Betalink · Gestionali Cloud per Hotel e Ristoranti">
+  <meta property="og:description" content="La certezza di una gestione perfetta. Sviluppato da albergatori per albergatori.">
+  <meta property="og:image" content="assets/images/logo.webp">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/webp" href="assets/images/logo.webp">
+
+  <!-- Master Stylesheet (Alpine Trust Theme) -->
+  <link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- SITE HEADER (Minimalist, Crisp & Floating) -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="#hero" class="brand-logo-wrap" aria-label="Betalink Home">
+        <img src="assets/images/logo.webp" alt="Betalink Logo" class="brand-logo">
+      </a>
+
+      <!-- Minimalist Navigation -->
+      <nav class="desktop-nav" aria-label="Navigazione Principale">
+        <ul class="nav-menu">
+          <li><a href="#clienti" class="nav-link" data-i18n="navClients">I Nostri Clienti</a></li>
+          <li><a href="#prodotti" class="nav-link" data-i18n="navSolutions">Soluzioni</a></li>
+          <li><a href="#come-funziona" class="nav-link" data-i18n="navWorkflow">Come Funziona</a></li>
+          <li><a href="#simulatore" class="nav-link" data-i18n="navCalculator">Calcola Risparmio</a></li>
+          <li><a href="#faq" class="nav-link" data-i18n="navFaq">FAQ</a></li>
+          <li><a href="#contatti" class="nav-link" data-i18n="navContact">Contatti</a></li>
+        </ul>
+      </nav>
+
+      <!-- Minimalist Quick Actions & Language Switcher -->
+      <div class="header-actions">
+        <!-- Language Switcher Pill -->
+        <div class="lang-switch-capsule" role="group" aria-label="Selettore Lingua / Language Selector">
+          <button class="lang-btn active" data-lang="it" aria-label="Italiano">IT</button>
+          <span class="lang-divider">/</span>
+          <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+        </div>
+
+        <a href="tel:+393931447378" class="phone-quick-link" title="Assistenza e Consulenza Diretta" aria-label="Telefono">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+          </svg>
+          <span class="phone-number-text">393 144 7378</span>
+        </a>
+
+        <button class="btn btn-primary btn-header-cta" data-open-demo="both" data-i18n="btnDemo">
+          Richiedi una Demo
+        </button>
+
+        <button class="mobile-toggle" aria-label="Menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        
+        <div class="hero-content reveal">
+          <div class="hero-pill">
+            <span class="pulse-dot"></span>
+            <span data-i18n="heroPill">Tecnologia Alberghiera di Nuova Generazione · Sede ad Andalo (TN)</span>
+          </div>
+
+          <h1 class="hero-title" data-i18n-html="heroTitle">
+            Il Gestionale Cloud che Mantiene le Promesse: <br>
+            <span class="highlight-blue">Semplice, Veloce, Sempre Conforme.</span>
+          </h1>
+
+          <p class="hero-description" data-i18n-html="heroDesc">
+            Sviluppato da albergatori per albergatori. Nessun server locale rumoroso, nessuna installazione complessa. 
+            <strong>Gootel</strong> per Hotel e <strong>Appetito</strong> per Ristoranti garantiscono check-in rapido, invio automatico Alloggiati Web & ISTAT e totale sincronizzazione con le OTA.
+          </p>
+
+          <div class="hero-cta-group">
+            <button class="btn btn-primary btn-lg" data-open-demo="both">
+              <span data-i18n="heroBtnDemo">Richiedi una Demo Guidata Gratuita</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </button>
+
+            <a href="https://gootel.it/appetito/indexdemo.php" target="_blank" rel="noopener" class="btn btn-secondary btn-lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <span data-i18n="heroBtnAppetito">Prova Demo Live Appetito</span>
+            </a>
+          </div>
+
+          <!-- Hero Social Proof Badge -->
+          <div class="hero-social-proof">
+            <div class="client-mini-avatars">
+              <img src="assets/images/hotel_diamant.jpg" alt="Hotel Diamant" class="mini-avatar">
+              <img src="assets/images/hotel_adler.jpg" alt="Hotel Adler" class="mini-avatar">
+              <img src="assets/images/hotel_panorama.jpg" alt="Hotel Panorama" class="mini-avatar">
+              <img src="assets/images/rifugio_alpenrose.jpg" alt="Rifugio Alpenrose" class="mini-avatar">
+            </div>
+            <div class="social-proof-stars">★★★★★</div>
+            <div class="social-proof-text" data-i18n-html="heroSocialProof">
+              Scelto da oltre <strong>13 eccellenze alberghiere</strong> delle Dolomiti e del Trentino
+            </div>
+          </div>
+        </div>
+
+        <!-- HERO SHOWCASE WINDOW -->
+        <div class="hero-showcase" id="prodotti">
+          
+          <div class="showcase-switcher">
+            <button class="switcher-tab active" data-target="gootel">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                <polyline points="9 22 9 12 15 12 15 22"></polyline>
+              </svg>
+              <span>Gootel · Gestionale Hotel</span>
+            </button>
+
+            <button class="switcher-tab" data-target="appetito">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
+              </svg>
+              <span>Appetito · Gestionale Ristorante</span>
+            </button>
+          </div>
+
+          <div class="dashboard-window">
+            <div class="window-header">
+              <div class="window-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <div class="window-title">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+                <span id="windowTitleText">Gootel Cloud PMS · Gestione Hotel & Alloggiati Web</span>
+              </div>
+              <div class="window-status">
+                <span class="pulse-dot"></span>
+                <span>Server Cloud Operativo al 100%</span>
+              </div>
+            </div>
+
+            <div class="window-body">
+              
+              <!-- PANE 1: GOOTEL -->
+              <div class="preview-pane active" id="preview-gootel">
+                <div class="mockup-img-wrap">
+                  <img src="assets/images/Gestionale22.jpeg" alt="Gootel Gestionale Alberghiero Interfaccia">
+                </div>
+
+                <div class="floating-chip chip-hotel-1">
+                  <div class="chip-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                    </svg>
+                  </div>
+                  <div class="chip-text">
+                    <h4>Alloggiati Web & ISTAT</h4>
+                    <p>Trasmissione automatica conforme</p>
+                  </div>
+                </div>
+
+                <div class="floating-chip chip-hotel-2">
+                  <div class="chip-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 14 14"></polyline>
+                    </svg>
+                  </div>
+                  <div class="chip-text">
+                    <h4>-70% Tempo alla Reception</h4>
+                    <p>Check-in rapido senza file</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- PANE 2: APPETITO -->
+              <div class="preview-pane" id="preview-appetito">
+                <div class="mockup-img-wrap">
+                  <img src="assets/images/Gestionale3.jpeg" alt="Appetito Gestionale Ristorante e Bar Interfaccia">
+                </div>
+
+                <div class="floating-chip chip-appetito-1">
+                  <div class="chip-icon coral">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+                      <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                    </svg>
+                  </div>
+                  <div class="chip-text">
+                    <h4>Comande su Smartphone</h4>
+                    <p>Nessun palmare proprietario costoso</p>
+                  </div>
+                </div>
+
+                <div class="floating-chip chip-appetito-2">
+                  <div class="chip-icon coral">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                      <polyline points="17 6 23 6 23 12"></polyline>
+                    </svg>
+                  </div>
+                  <div class="chip-text">
+                    <h4>Statistiche in Tempo Reale</h4>
+                    <p>Incassi per reparto e piatti top</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Animated Hero Scroll Prompt -->
+        <div class="hero-scroll-prompt" aria-hidden="true">
+          <a href="#clienti" class="scroll-prompt-link">
+            <span class="scroll-mouse-icon">
+              <span class="scroll-wheel-dot"></span>
+            </span>
+            <span class="scroll-prompt-text" data-i18n="scrollPrompt">Scorri per scoprire le soluzioni</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="scroll-chevron">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CLIENT SHOWCASE SUPREME (Visual Showcase of Real Client Hotels) -->
+    <section class="section section-alt" id="clienti">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <span class="section-tag emerald" data-i18n="clientTag">Autorevolezza & Territorio · Altopiano della Paganella</span>
+          <h2 class="section-title" data-i18n="clientTitle">I Migliori Hotel e Ristoranti del Trentino Scelgono Betalink</h2>
+          <p class="section-subtitle" data-i18n="clientSubtitle">
+            Non semplici recensioni anonime: i più rinomati hotel 4 stelle, resort benessere e rifugi alpini dell'Altopiano della Paganella e delle Dolomiti gestiscono camere, comande e adempimenti fiscali con il nostro software cloud.
+          </p>
+        </div>
+
+        <!-- 1. Client Authority Stat Bar -->
+        <div class="client-stat-bar reveal">
+          <div class="stat-bar-item">
+            <div class="stat-bar-number accent-blue"><span class="counter-val" data-target="850">850</span>+</div>
+            <div class="stat-bar-label" data-i18n="statRoomsLabel">Camere & Suite gestite quotidianamente in Trentino</div>
+          </div>
+          <div class="stat-bar-divider"></div>
+          <div class="stat-bar-item">
+            <div class="stat-bar-number accent-emerald"><span class="counter-val" data-target="100">100</span>%</div>
+            <div class="stat-bar-label" data-i18n="statComplianceLabel">Conformità Questura Alloggiati Web & ISTAT automatica</div>
+          </div>
+          <div class="stat-bar-divider"></div>
+          <div class="stat-bar-item">
+            <div class="stat-bar-number">&lt; <span class="counter-val" data-target="45">45</span>s</div>
+            <div class="stat-bar-label" data-i18n="statCheckinLabel">Tempo medio check-in per famiglia senza code alla reception</div>
+          </div>
+          <div class="stat-bar-divider"></div>
+          <div class="stat-bar-item">
+            <div class="stat-bar-number accent-blue"><span class="counter-val" data-target="5">5</span> min</div>
+            <div class="stat-bar-label" data-i18n="statResponseLabel">Tempo di intervento sul posto dalla nostra sede di Andalo</div>
+          </div>
+        </div>
+
+        <!-- 2. Category Filter Tabs -->
+        <div class="client-filter-tabs reveal">
+          <button class="client-filter-btn active" data-filter="all">
+            <span data-i18n="filterAll">Tutte le Strutture</span>
+            <span class="filter-count">6</span>
+          </button>
+          <button class="client-filter-btn" data-filter="4star">
+            <span data-i18n="filter4Star">Hotel & Resort 4★ / 4★S</span>
+            <span class="filter-count">4</span>
+          </button>
+          <button class="client-filter-btn" data-filter="tradition">
+            <span data-i18n="filterTradition">Hotel Tipici & Familiari</span>
+            <span class="filter-count">1</span>
+          </button>
+          <button class="client-filter-btn" data-filter="restaurant">
+            <span data-i18n="filterRestaurant">Ristoranti & Rifugi Alpini</span>
+            <span class="filter-count">1</span>
+          </button>
+        </div>
+
+        <!-- 3. 6 FEATURED LUXURY HOTEL CARDS WITH REAL PHOTOS -->
+        <div class="showcase-grid" id="clientShowcaseGrid">
+          
+          <!-- Card 1: Hotel Diamant -->
+          <article class="hotel-card" data-category="4star">
+            <div class="hotel-photo-wrap">
+              <img src="assets/images/hotel_diamant.jpg" alt="Hotel Diamant Andalo" loading="lazy">
+              <span class="hotel-tag-badge">4★ Family & Wellness Resort</span>
+              <span class="hotel-capacity-pill">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                65 Camere & Suite
+              </span>
+              <div class="hotel-logo-capsule">
+                <img src="assets/images/Logo_Diamant.png" alt="Logo Hotel Diamant">
+              </div>
+            </div>
+            <div class="hotel-card-body">
+              <div>
+                <div class="hotel-title-group">
+                  <div class="hotel-stars">★★★★</div>
+                  <h3 class="hotel-name">Hotel Diamant</h3>
+                  <div class="hotel-location">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>Andalo (TN) · Altopiano della Paganella</span>
+                  </div>
+                </div>
+
+                <blockquote class="hotel-quote">
+                  "Gestire oltre 60 camere e suite in altissima stagione con famiglie e bambini richiede zero margine di errore. Con Gootel il check-in è fulmineo e l'invio alla Questura è una formalità da 30 secondi."
+                </blockquote>
+              </div>
+
+              <div class="hotel-card-footer">
+                <div class="hotel-tech-pills">
+                  <span class="tech-pill active-pill">Gootel PMS Hotel</span>
+                  <span class="tech-pill active-pill">Booking Engine Diretto</span>
+                  <span class="tech-pill">Simple Booking</span>
+                  <span class="tech-pill">Schedine PS & ISTAT</span>
+                </div>
+                <button class="btn-card-case-study" data-open-case="diamant">
+                  <span>Vedi Scheda & Risultati</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Hotel Adler -->
+          <article class="hotel-card" data-category="4star">
+            <div class="hotel-photo-wrap">
+              <img src="assets/images/hotel_adler.jpg" alt="Hotel Adler Wellness Spa Andalo" loading="lazy">
+              <span class="hotel-tag-badge">4★ S Historic & Luxury Spa</span>
+              <span class="hotel-capacity-pill">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                48 Camere & Spa
+              </span>
+              <div class="hotel-logo-capsule">
+                <img src="assets/images/Logo_Adler.png" alt="Logo Hotel Adler">
+              </div>
+            </div>
+            <div class="hotel-card-body">
+              <div>
+                <div class="hotel-title-group">
+                  <div class="hotel-stars">★★★★S</div>
+                  <h3 class="hotel-name">Hotel Adler</h3>
+                  <div class="hotel-location">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>Andalo (TN) · Centro Storico</span>
+                  </div>
+                </div>
+
+                <blockquote class="hotel-quote">
+                  "Per una struttura con elevati standard spa e wellness, la trasparenza contabile e l'integrazione della fatturazione elettronica SDI sono essenziali. Betalink offre un'affidabilità totale e zero pensieri."
+                </blockquote>
+              </div>
+
+              <div class="hotel-card-footer">
+                <div class="hotel-tech-pills">
+                  <span class="tech-pill active-pill">Gootel Multiutente</span>
+                  <span class="tech-pill active-pill">Fatturazione SDI</span>
+                  <span class="tech-pill">Tassa di Soggiorno</span>
+                  <span class="tech-pill">Archivio GDPR</span>
+                </div>
+                <button class="btn-card-case-study" data-open-case="adler">
+                  <span>Vedi Scheda & Risultati</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Hotel Panorama Molveno -->
+          <article class="hotel-card" data-category="4star">
+            <div class="hotel-photo-wrap">
+              <img src="assets/images/hotel_panorama.jpg" alt="Hotel Panorama Lago di Molveno" loading="lazy">
+              <span class="hotel-tag-badge">4★ Vista Panoramica Lago</span>
+              <span class="hotel-capacity-pill">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                42 Camere Vista Lago
+              </span>
+              <div class="hotel-logo-capsule">
+                <img src="assets/images/Logo_Panorama.png" alt="Logo Hotel Panorama Molveno">
+              </div>
+            </div>
+            <div class="hotel-card-body">
+              <div>
+                <div class="hotel-title-group">
+                  <div class="hotel-stars">★★★★</div>
+                  <h3 class="hotel-name">Hotel Panorama</h3>
+                  <div class="hotel-location">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>Molveno (TN) · Vista Lago di Molveno</span>
+                  </div>
+                </div>
+
+                <blockquote class="hotel-quote">
+                  "La sincronizzazione istantanea con Booking.com ed Expedia attraverso il modulo Channel Manager ci ha permesso di azzerare i rischi di overbooking e massimizzare l'occupazione delle camere vista lago."
+                </blockquote>
+              </div>
+
+              <div class="hotel-card-footer">
+                <div class="hotel-tech-pills">
+                  <span class="tech-pill active-pill">Gootel Cloud PMS</span>
+                  <span class="tech-pill active-pill">Channel Manager OTA</span>
+                  <span class="tech-pill">Preventivatore Rapido</span>
+                  <span class="tech-pill">Gestione Caparre</span>
+                </div>
+                <button class="btn-card-case-study" data-open-case="panorama">
+                  <span>Vedi Scheda & Risultati</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4: Hotel Belvedere Fai della Paganella -->
+          <article class="hotel-card" data-category="4star">
+            <div class="hotel-photo-wrap">
+              <img src="assets/images/hotel_belvedere.jpg" alt="Hotel Belvedere Fai della Paganella" loading="lazy">
+              <span class="hotel-tag-badge">4★ Panoramico Wellness</span>
+              <span class="hotel-capacity-pill">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                54 Camere & Wellness
+              </span>
+              <div class="hotel-logo-capsule">
+                <img src="assets/images/Logo_Belvedere.svg" alt="Logo Hotel Belvedere">
+              </div>
+            </div>
+            <div class="hotel-card-body">
+              <div>
+                <div class="hotel-title-group">
+                  <div class="hotel-stars">★★★★</div>
+                  <h3 class="hotel-name">Hotel Belvedere</h3>
+                  <div class="hotel-location">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>Fai della Paganella (TN) · Vista Valle Adige</span>
+                  </div>
+                </div>
+
+                <blockquote class="hotel-quote">
+                  "Dalla gestione dei gruppi estivi alle presenze invernali per gli impianti di risalita: l'integrazione rapida delle schedine ISTAT C72 e la cassa unificata hanno liberato ore preziose alla nostra reception."
+                </blockquote>
+              </div>
+
+              <div class="hotel-card-footer">
+                <div class="hotel-tech-pills">
+                  <span class="tech-pill active-pill">Gootel PMS Cloud</span>
+                  <span class="tech-pill active-pill">Alloggiati Web PS</span>
+                  <span class="tech-pill">Statistiche ISTAT</span>
+                  <span class="tech-pill">Simple Booking</span>
+                </div>
+                <button class="btn-card-case-study" data-open-case="belvedere">
+                  <span>Vedi Scheda & Risultati</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 5: Hotel Stella Alpina Andalo -->
+          <article class="hotel-card" data-category="tradition">
+            <div class="hotel-photo-wrap">
+              <img src="assets/images/hotel_stella_alpina.jpg" alt="Hotel Stella Alpina Andalo" loading="lazy">
+              <span class="hotel-tag-badge">3★ S Tradizione & Famiglia</span>
+              <span class="hotel-capacity-pill">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+                38 Camere Tipiche
+              </span>
+              <div class="hotel-logo-capsule">
+                <img src="assets/images/Logo_StellaAlpina.png" alt="Logo Hotel Stella Alpina">
+              </div>
+            </div>
+            <div class="hotel-card-body">
+              <div>
+                <div class="hotel-title-group">
+                  <div class="hotel-stars">★★★S</div>
+                  <h3 class="hotel-name">Hotel Stella Alpina</h3>
+                  <div class="hotel-location">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>Andalo (TN) · Posizione Centrale</span>
+                  </div>
+                </div>
+
+                <blockquote class="hotel-quote">
+                  "Siamo una famiglia di albergatori da 3 generazioni: cercavamo un software senza complicazioni inutili, che non ci lasciasse soli. Betalink ha sede a 500 metri dal nostro hotel: una sicurezza impagabile."
+                </blockquote>
+              </div>
+
+              <div class="hotel-card-footer">
+                <div class="hotel-tech-pills">
+                  <span class="tech-pill active-pill">Gootel PMS Cloud</span>
+                  <span class="tech-pill active-pill">Gestione Caparre</span>
+                  <span class="tech-pill">Preventivi Rapidi</span>
+                  <span class="tech-pill">Assistenza Sul Posto</span>
+                </div>
+                <button class="btn-card-case-study" data-open-case="stellaalpina">
+                  <span>Vedi Scheda & Risultati</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 6: Rifugio Alpenrose -->
+          <article class="hotel-card" data-category="restaurant">
+            <div class="hotel-photo-wrap">
+              <img src="assets/images/rifugio_alpenrose.jpg" alt="Rifugio Alpenrose Dolomiti" loading="lazy">
+              <span class="hotel-tag-badge" style="background: rgba(225, 29, 72, 0.9);">Rifugio & Ristorante Tipico</span>
+              <span class="hotel-capacity-pill">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path></svg>
+                220 Coperti Panoramici
+              </span>
+              <div class="hotel-logo-capsule">
+                <img src="assets/images/Logo_Alpenrose.png" alt="Logo Rifugio Alpenrose">
+              </div>
+            </div>
+            <div class="hotel-card-body">
+              <div>
+                <div class="hotel-title-group">
+                  <div class="hotel-stars">★★★★★</div>
+                  <h3 class="hotel-name">Rifugio Alpenrose</h3>
+                  <div class="hotel-location">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                    <span>Dolomiti di Brenta · Quota Panoramica</span>
+                  </div>
+                </div>
+
+                <blockquote class="hotel-quote">
+                  "A pranzo con centinaia di escursionisti in terrazza non possiamo permetterci blocchi di sistema. Con Appetito i camerieri prendono le comande su normali smartphone e la cucina riceve gli ordini all'istante."
+                </blockquote>
+              </div>
+
+              <div class="hotel-card-footer">
+                <div class="hotel-tech-pills">
+                  <span class="tech-pill active-pill" style="color: var(--coral-warm); background: var(--appetito-badge-bg);">Appetito Ristorante POS</span>
+                  <span class="tech-pill">Comande a Video</span>
+                  <span class="tech-pill">Stampanti Epson RT</span>
+                  <span class="tech-pill">Menu del Giorno</span>
+                </div>
+                <button class="btn-card-case-study" data-open-case="alpenrose">
+                  <span>Vedi Scheda & Risultati</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- 4. INFINITE LOGO MARQUEE FOR ALL 13+ CLIENTS -->
+        <p style="text-align: center; font-size: 0.95rem; font-weight: 700; color: var(--navy-900); margin-bottom: 18px; text-transform: uppercase; letter-spacing: 0.05em;">
+          I Nostri Partner di Fiducia sul Territorio (Tutti i Clienti)
+        </p>
+
+        <div class="marquee-container" aria-hidden="true">
+          <div class="marquee-track">
+            <div class="client-logo-card"><img src="assets/images/Logo_Diamant.png" alt="Hotel Diamant Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Adler.png" alt="Hotel Adler Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Alpenrose.png" alt="Rifugio Alpenrose"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Panorama.png" alt="Hotel Panorama Molveno"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_StellaAlpina.png" alt="Hotel Stella Alpina Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Belvedere.svg" alt="Hotel Belvedere Fai della Paganella"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Antares.svg" alt="Hotel Antares Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_LaCosta.jpeg" alt="B&B La Costa"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Piccolo.png" alt="Residence Piccolo Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Rosaalpina.png" alt="Hotel Rosa Alpina Fiave"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Bottamedi.jpeg" alt="Hotel Bottamedi Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Olympia.png" alt="Hotel Olympia Molveno"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Fai.png" alt="Hotel Fai"></div>
+
+            <!-- Loop -->
+            <div class="client-logo-card"><img src="assets/images/Logo_Diamant.png" alt="Hotel Diamant Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Adler.png" alt="Hotel Adler Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Alpenrose.png" alt="Rifugio Alpenrose"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Panorama.png" alt="Hotel Panorama Molveno"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_StellaAlpina.png" alt="Hotel Stella Alpina Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Belvedere.svg" alt="Hotel Belvedere Fai della Paganella"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Antares.svg" alt="Hotel Antares Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_LaCosta.jpeg" alt="B&B La Costa"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Piccolo.png" alt="Residence Piccolo Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Rosaalpina.png" alt="Hotel Rosa Alpina Fiave"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Bottamedi.jpeg" alt="Hotel Bottamedi Andalo"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Olympia.png" alt="Hotel Olympia Molveno"></div>
+            <div class="client-logo-card"><img src="assets/images/Logo_Fai.png" alt="Hotel Fai"></div>
+          </div>
+        </div>
+
+        <!-- 5. INTERACTIVE TERRITORY RADAR / HUB -->
+        <div class="territory-hub">
+          <div class="territory-hub-header">
+            <div class="territory-hub-title">
+              <span class="section-tag">Radici Locali · Presenza Fisica</span>
+              <h3>Altopiano della Paganella: Il Territorio dove siamo Nati</h3>
+              <p>Non siamo un call center irraggiungibile. La nostra sede è in Via Rindole ad Andalo, a pochi minuti da tutte le strutture clienti.</p>
+            </div>
+            <a href="#contatti" class="btn btn-secondary">
+              <span>Richiedi Visita in Struttura</span>
+            </a>
+          </div>
+
+          <div class="territory-hub-grid">
+            <div class="territory-town-selectors">
+              <button class="territory-town-btn active" data-town="andalo">
+                <div class="town-btn-info">
+                  <span class="town-icon">🏔️</span>
+                  <div>
+                    <div class="town-name">Andalo (Hub Centrale Betalink)</div>
+                    <div class="town-meta">Sede Via Rindole 9/a · Intervento immediato</div>
+                  </div>
+                </div>
+                <span class="town-count-badge">6 Strutture</span>
+              </button>
+
+              <button class="territory-town-btn" data-town="molveno">
+                <div class="town-btn-info">
+                  <span class="town-icon">🌊</span>
+                  <div>
+                    <div class="town-name">Molveno & Lago</div>
+                    <div class="town-meta">Dist. 4.5 km · 7 min di auto</div>
+                  </div>
+                </div>
+                <span class="town-count-badge">2 Strutture</span>
+              </button>
+
+              <button class="territory-town-btn" data-town="fai">
+                <div class="town-btn-info">
+                  <span class="town-icon">🌲</span>
+                  <div>
+                    <div class="town-name">Fai della Paganella</div>
+                    <div class="town-meta">Dist. 5 km · 8 min di auto</div>
+                  </div>
+                </div>
+                <span class="town-count-badge">2 Strutture</span>
+              </button>
+
+              <button class="territory-town-btn" data-town="quota">
+                <div class="town-btn-info">
+                  <span class="town-icon">⛷️</span>
+                  <div>
+                    <div class="town-name">Cima Paganella & Rifugi</div>
+                    <div class="town-meta">Alta Quota · Connessione Cloud garantita</div>
+                  </div>
+                </div>
+                <span class="town-count-badge">Rifugi Alpini</span>
+              </button>
+            </div>
+
+            <div class="territory-display-card" id="territoryDisplayCard">
+              <div class="territory-display-header">
+                <h4 id="territoryTownTitle" style="font-size: 1.3rem; color: var(--navy-900);">Andalo · Cuore Operativo Betalink</h4>
+                <span class="territory-display-badge">📍 Sede Centrale</span>
+              </div>
+              <p id="territoryTownDesc" style="font-size: 0.95rem; color: var(--text-secondary);">
+                Ad Andalo gestiamo le strutture alberghiere storiche del paese. Il nostro team tecnico è a disposizione per affiancamento diretto del personale alla reception o in sala.
+              </p>
+              <div class="territory-hotel-chips" id="territoryHotelChips">
+                <span class="hotel-chip-tag">Hotel Diamant 4★</span>
+                <span class="hotel-chip-tag">Hotel Adler 4★S</span>
+                <span class="hotel-chip-tag">Hotel Stella Alpina 3★S</span>
+                <span class="hotel-chip-tag">Hotel Antares</span>
+                <span class="hotel-chip-tag">Residence Piccolo</span>
+                <span class="hotel-chip-tag">Hotel Bottamedi</span>
+              </div>
+              <div style="font-size: 0.85rem; color: var(--emerald-600); font-weight: 700; display: flex; align-items: center; gap: 6px;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Assistenza fisica garantita anche durante le festività e alta stagione</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WORKFLOW & COMPLIANCE CERTAINTY (Come Funziona) -->
+    <section class="section" id="come-funziona">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Flusso Operativo Senza Errori</span>
+          <h2 class="section-title">La Certezza di una Gestione a Norma di Legge</h2>
+          <p class="section-subtitle">
+            Dall'istante in cui il cliente prenota sul web fino all'emissione del conto, ogni passaggio burocratico e contabile è automatizzato al 100%.
+          </p>
+        </div>
+
+        <div class="workflow-steps-grid">
+          
+          <div class="workflow-step-card">
+            <div class="step-number">01</div>
+            <h3>Prenotazione & OTA</h3>
+            <p>
+              Le prenotazioni confluiscono in automatico dal Booking Engine sul tuo sito web e dai canali OTA (Booking.com, Airbnb, Expedia) grazie all'integrazione certificata con Simple Booking. Zero overbooking, disponibilità sincronizzata al secondo.
+            </p>
+          </div>
+
+          <div class="workflow-step-card">
+            <div class="step-number" style="color: #BAE6FD;">02</div>
+            <h3>Check-in in 60 Secondi & PS</h3>
+            <p>
+              Inserisci i dati degli ospiti o acquisiscili in anticipo. Gootel calcola automaticamente la tassa di soggiorno ed esporta con un solo clic i file conformi per il portale <strong>Alloggiati Web della Polizia di Stato</strong> e i modelli ISTAT regionali.
+            </p>
+          </div>
+
+          <div class="workflow-step-card">
+            <div class="step-number" style="color: #A7F3D0;">03</div>
+            <h3>Fattura SDI & Cassa Epson</h3>
+            <p>
+              Emetti fatture elettroniche con invio diretto al Sistema di Interscambio (SDI) dell'Agenzia delle Entrate, gestisci i conti separati e sincronizza le stampanti fiscali omologate RT Epson senza configurazioni complicate.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GOOTEL PRODUCT DEEP DIVE -->
+    <section class="section section-alt" id="gootel">
+      <div class="container">
+        
+        <div class="product-detail-card">
+          <div class="product-meta-header">
+            <div class="product-brand-title">
+              <h3>Gootel</h3>
+              <span class="badge-gootel">Gestionale Alberghiero Cloud</span>
+            </div>
+            <button class="btn btn-primary" data-open-demo="gootel">
+              Richiedi Demo Gootel
+            </button>
+          </div>
+
+          <div class="modules-grid">
+            <div class="module-item">
+              <div class="module-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+              </div>
+              <h4>Modulo Booking Engine</h4>
+              <p>Motore di prenotazione diretta integrato sul tuo sito web per disintermediare e risparmiare sulle pesanti commissioni OTA.</p>
+            </div>
+
+            <div class="module-item">
+              <div class="module-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="20" x2="21" y2="3"></line><polyline points="21 16 21 21 16 21"></polyline><line x1="15" y1="15" x2="21" y2="21"></line><line x1="4" y1="4" x2="9" y2="9"></line></svg>
+              </div>
+              <h4>Channel Manager (Simple Booking)</h4>
+              <p>Sincronizzazione istantanea di tariffe, disponibilità e soggiorni minimi con Booking.com, Expedia, Airbnb, Google Hotel.</p>
+            </div>
+
+            <div class="module-item">
+              <div class="module-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <h4>Modulo PS Alloggiati & ISTAT</h4>
+              <p>Generazione automatica e invio con un clic dei file per la Questura (Alloggiati Web) e delle statistiche turistiche regionali.</p>
+            </div>
+
+            <div class="module-item">
+              <div class="module-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><line x1="2" y1="10" x2="22" y2="10"></line></svg>
+              </div>
+              <h4>Tassa di Soggiorno</h4>
+              <p>Calcolo esatto automatico per comune di appartenenza, esenzioni per età, stagionalità e report riassuntivo per il versamento.</p>
+            </div>
+
+            <div class="module-item">
+              <div class="module-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+              </div>
+              <h4>Fatturazione Elettronica SDI</h4>
+              <p>Emissione rapida di fatture elettroniche, ricevute e note di accredito con trasmissione diretta all'Agenzia delle Entrate.</p>
+            </div>
+
+            <div class="module-item">
+              <div class="module-icon-wrap">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+              </div>
+              <h4>Modulare & Su Misura</h4>
+              <p>Personalizzabile secondo le tue esigenze operative: preventivi veloci, gestione caparre, archivio storico ospiti e privacy GDPR.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- APPETITO PRODUCT DEEP DIVE -->
+    <section class="section" id="appetito" style="padding-top: 0;">
+      <div class="container">
+        
+        <div class="product-detail-card">
+          <div class="product-meta-header">
+            <div class="product-brand-title">
+              <h3>Appetito</h3>
+              <span class="badge-appetito">Gestionale Ristorante, Pizzeria & Bar</span>
+            </div>
+            <button class="btn btn-coral" data-open-demo="appetito">
+              Richiedi Demo Appetito
+            </button>
+          </div>
+
+          <div class="modules-grid">
+            <div class="module-item">
+              <div class="module-icon-wrap coral">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+              </div>
+              <h4>Qualsiasi Dispositivo</h4>
+              <p>Utilizzabile da smartphone di sala, tablet o PC cassa. Nessun palmare proprietario costoso: i camerieri usano normali cellulari.</p>
+            </div>
+
+            <div class="module-item">
+              <div class="module-icon-wrap coral">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+              </div>
+              <h4>Gestione Reparti & Tavoli</h4>
+              <p>Mappa tavoli intuitiva per sale, terrazza, bar. Separa le ordinazioni per pietanza, sequenza uscite e preferenze clienti.</p>
+            </div>
+
+            <div class="module-item">
+              <div class="module-icon-wrap coral">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+              </div>
+              <h4>Comande a Video o Cartacee</h4>
+              <p>Invia le comande contemporaneamente alle stampanti termiche cucina/pizzeria/bar o ai display digitali KDS da cucina.</p>
+            </div>
+
+            <div class="module-item">
+              <div class="module-icon-wrap coral">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+              </div>
+              <h4>Menu Giornalieri & Stagionali</h4>
+              <p>Crea e modifica in pochi secondi il menu del giorno, i piatti speciali, le variazioni e l'indicazione di allergeni.</p>
+            </div>
+
+            <div class="module-item">
+              <div class="module-icon-wrap coral">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              </div>
+              <h4>Statistiche Prodotti & Vendite</h4>
+              <p>Report dettagliati su piatti più venduti, tempi di servizio, scontrino medio, incassi per reparto e operatori.</p>
+            </div>
+
+            <div class="module-item">
+              <div class="module-icon-wrap coral">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2"></rect><rect x="2" y="14" width="20" height="8" rx="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+              <h4>Compatibile con Stampanti Epson</h4>
+              <p>Collegamento immediato con le stampanti fiscali omologate RT e stampanti comande standard del mercato della ristorazione.</p>
+            </div>
+          </div>
+
+          <!-- Live Interactive Demo Banner -->
+          <div class="live-demo-banner">
+            <div class="live-demo-info">
+              <h4>Vuoi provare subito Appetito?</h4>
+              <p>Scansiona il QR Code con il tuo smartphone o accedi subito alla demo online aperta con un solo clic.</p>
+              <br>
+              <a href="https://gootel.it/appetito/indexdemo.php" target="_blank" rel="noopener" class="btn btn-coral">
+                <span>Apri Demo Live Appetito</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </a>
+            </div>
+
+            <div class="live-demo-qr-wrap">
+              <img src="assets/images/qrcode.png" alt="QR Code Demo Appetito" class="qr-image">
+              <div class="qr-caption">
+                <strong>Scansiona dal telefono</strong><br>
+                per testare la presa comande come un vero cameriere.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- COMPARISON MATRIX (Prima vs Dopo Betalink) -->
+    <section class="section section-alt">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Perché Scegliere Betalink</span>
+          <h2 class="section-title">La Differenza tra un Software Vecchio e Betalink</h2>
+          <p class="section-subtitle">
+            Confronta la serenità operativa della nostra soluzione cloud rispetto ai gestionali tradizionali monolitici.
+          </p>
+        </div>
+
+        <div class="comparison-card">
+          <div class="comparison-grid">
+            
+            <div class="comparison-col old-way">
+              <div class="comparison-header">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+                <h3 style="color: #991B1B;">I Vecchi Gestionali Monolitici</h3>
+              </div>
+              <ul class="comparison-list">
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                  <span>Server fisici rumorosi e delicati da mantenere in reception</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                  <span>Installazioni complicate con licenze bloccate su singoli PC</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                  <span>Aggiornamenti normativi (PS/ISTAT/SDI) a pagamento e in ritardo</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                  <span>Assistenza impersonale tramite call center generici</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                  <span>Settimane di formazione per insegnare al personale a usarlo</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="comparison-col new-way">
+              <div class="comparison-header">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="9 12 11 14 15 10"></polyline></svg>
+                <h3 style="color: #065F46;">La Soluzione Cloud Betalink</h3>
+              </div>
+              <ul class="comparison-list">
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>100% in Cloud:</strong> accedi da qualsiasi PC, tablet o smartphone senza server</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Multiutente illimitato:</strong> reception, piani e direzione operano insieme</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Conformità automatica garantita:</strong> aggiornamenti PS, ISTAT e SDI continui</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Supporto albergatore-per-albergatore:</strong> sede ad Andalo, parli con chi ti capisce</span>
+                </li>
+                <li>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span><strong>Immediato e intuitivo:</strong> il tuo staff impara a usarlo in meno di 30 minuti</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTERACTIVE ROI / TIME-SAVED SIMULATOR -->
+    <section class="section" id="simulatore">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Calcolatore di Rendimento</span>
+          <h2 class="section-title">Quanto Tempo e Denaro Risparmierai?</h2>
+          <p class="section-subtitle">
+            Simula il risparmio medio mensile ottenuto automatizzando schedine PS, flussi ISTAT regionali, fatturazione elettronica e comande in sala.
+          </p>
+        </div>
+
+        <div class="roi-card">
+          <div class="roi-grid">
+            
+            <div class="roi-controls">
+              <div class="slider-group">
+                <div class="slider-header">
+                  <span class="slider-label">Camere / Alloggi Hotel:</span>
+                  <span class="slider-val"><span id="roomVal">35</span> camere</span>
+                </div>
+                <input type="range" class="custom-range" id="roomRange" min="5" max="150" value="35" step="1">
+              </div>
+
+              <div class="slider-group">
+                <div class="slider-header">
+                  <span class="slider-label">Tavoli Ristorante / Bar:</span>
+                  <span class="slider-val"><span id="tableVal">25</span> tavoli</span>
+                </div>
+                <input type="range" class="custom-range" id="tableRange" min="0" max="100" value="25" step="1">
+              </div>
+
+              <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.5;">
+                *Stima calcolata su benchmark reali dei nostri clienti partner in Trentino: circa 18 minuti risparmiati a camera per adempimenti fiscali e telematici, azzeramento errori comande e disintermediazione con Booking Engine diretto.
+              </p>
+            </div>
+
+            <div class="roi-results-board">
+              <div class="result-metric">
+                <p>Tempo Risparmiato dallo Staff / Mese</p>
+                <div class="number metric-blue" id="hoursSavedMetric">98 ore</div>
+              </div>
+
+              <div class="result-metric">
+                <p>Incasso Extra Stimato (Disintermediazione)</p>
+                <div class="number metric-green" id="euroGainMetric">+€6.575</div>
+              </div>
+
+              <div class="result-metric">
+                <p>Riduzione Errori di Comanda e Sala</p>
+                <div class="number" id="errorRateMetric" style="color: #FBBF24;">-95%</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTEGRATIONS ECOSYSTEM -->
+    <section class="section section-alt" id="integrazioni">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Ecosistema Certificato</span>
+          <h2 class="section-title">Integrazione Nativa con gli Standard di Mercato</h2>
+          <p class="section-subtitle">
+            Betalink si interfaccia perfettamente con i dispositivi hardware e le piattaforme software consolidate del settore ospitalità.
+          </p>
+        </div>
+
+        <div class="integrations-grid">
+          
+          <div class="integration-card">
+            <div class="integration-logo-wrap">
+              <img src="assets/images/logoEpson.svg" alt="Epson Logo">
+            </div>
+            <h4>Epson</h4>
+            <p>Integrazione diretta con stampanti fiscali telematiche RT e stampanti termiche comande cucina e bar.</p>
+          </div>
+
+          <div class="integration-card">
+            <div class="integration-logo-wrap">
+              <img src="assets/images/logoSimpleBooking.png" alt="Simple Booking Logo">
+            </div>
+            <h4>Simple Booking</h4>
+            <p>Il Channel Manager leader per collegare istantaneamente le tue disponibilità a Booking.com, Expedia e Airbnb.</p>
+          </div>
+
+          <div class="integration-card">
+            <div class="integration-logo-wrap">
+              <img src="assets/images/logoSpotty.jpeg" alt="Spotty Wi-Fi Logo">
+            </div>
+            <h4>Spotty Wi-Fi</h4>
+            <p>Accesso Wi-Fi e strumenti evoluti di fidelizzazione, recensioni e marketing per gli ospiti del tuo hotel.</p>
+          </div>
+
+          <div class="integration-card">
+            <div class="integration-logo-wrap">
+              <img src="assets/images/logoOnubo.png" alt="Onubo Cloud Solutions">
+            </div>
+            <h4>Onubo</h4>
+            <p>Soluzioni cloud e connettività professionale per la trasformazione digitale delle strutture ricettive.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="section" id="faq">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Domande Frequenti</span>
+          <h2 class="section-title">Hai Qualche Dubbio? Ecco le Risposte</h2>
+          <p class="section-subtitle">
+            Tutto quello che c'è da sapere sull'attivazione dei gestionali Betalink.
+          </p>
+        </div>
+
+        <div class="faq-wrap">
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Serve installare software o acquistare computer costosi?</span>
+              <span class="faq-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                No, assolutamente! Sia <strong>Gootel</strong> che <strong>Appetito</strong> sono 100% nativi in Cloud. Questo significa che puoi aprirli su qualsiasi computer (Windows, Mac, Linux), tablet (iPad, Android) o smartphone senza installare alcun programma. I tuoi dati sono sempre protetti e salvati in tempo reale su server sicuri e certificati.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Come avviene la gestione delle Schedine PS Alloggiati Web e ISTAT?</span>
+              <span class="faq-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                All'arrivo dell'ospite inserisci i dati anagrafici o scansiona i documenti. Gootel compila ed esporta automaticamente il file conforme per il portale Alloggiati della Polizia di Stato e per l'ISTAT provinciale/regionale (incluso il calcolo della tassa di soggiorno), riducendo il tempo di lavoro da ore a pochi secondi.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Posso testare il software prima di prendere una decisione?</span>
+              <span class="faq-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Certamente! Per Appetito puoi accedere subito alla demo live interattiva cliccando sul pulsante dedicato o inquadrando il QR Code. Per Gootel concordiamo una demo guidata online o di persona con un nostro consulente per mostrarti le funzioni tarate sulle esigenze specifiche della tua struttura.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Quali stampanti fiscali e per comande sono supportate?</span>
+              <span class="faq-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Appetito supporta pienamente le stampanti termiche fiscali RT telematiche (standard Epson e compatibili) per l'emissione del documento commerciale, oltre a qualsiasi stampante di comande seriale/Ethernet/Wi-Fi o monitor touch da cucina (KDS).
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Come si passa dal nostro vecchio gestionale a Betalink?</span>
+              <span class="faq-icon">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+              </span>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-inner">
+                Ti assistiamo personalmente in ogni fase della migrazione: importazione anagrafiche, configurazione dei listini, camere, sale e menu, oltre alla formazione immediata di tutto il tuo team. Essendo estremamente intuitivo, il personale impara a usarlo in meno di 30 minuti.
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT & DEMO REQUEST CARD -->
+    <section class="section section-alt" id="contatti">
+      <div class="container">
+        
+        <div class="contact-card">
+          
+          <!-- Company & Contact Details -->
+          <div class="contact-info-col">
+            <div>
+              <span class="section-tag">Parla con Noi</span>
+              <h3>Richiedi una Demo o una Consulenza</h3>
+              <p>
+                Ti contatteremo rapidamente e concorderemo insieme un appuntamento. Ti faremo conoscere tutti i servizi del software gestionale: vedrai con i tuoi occhi la semplicità e la velocità delle nostre soluzioni.
+              </p>
+
+              <div class="contact-channel-list">
+                <div class="contact-channel">
+                  <div class="channel-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div class="channel-text">
+                    <h5>Telefono Diretto Sede</h5>
+                    <a href="tel:+393931447378">+39 393 144 7378</a>
+                  </div>
+                </div>
+
+                <div class="contact-channel">
+                  <div class="channel-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="channel-text">
+                    <h5>Email Informazioni</h5>
+                    <a href="mailto:info@betalink.it">info@betalink.it</a>
+                  </div>
+                </div>
+
+                <div class="contact-channel">
+                  <div class="channel-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="channel-text">
+                    <h5>Sede Operativa</h5>
+                    <span>Via Rindole, 9/a · 38010 Andalo (TN)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="andalo-badge">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              </svg>
+              <span><strong>Betalink Snc</strong> · P.IVA 02325090229 · Albergatori al tuo servizio</span>
+            </div>
+          </div>
+
+          <!-- Direct Form -->
+          <div class="contact-form-col">
+            <form class="contact-lead-form">
+              <div class="form-alert"></div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="formName">Cognome e Nome *</label>
+                  <input type="text" id="formName" name="nome" class="form-input" placeholder="es. Mario Rossi" required>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="formStructure">Nome Struttura</label>
+                  <input type="text" id="formStructure" name="struttura" class="form-input" placeholder="es. Hotel Dolomiti">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="formEmail">Email Aziendale *</label>
+                  <input type="email" id="formEmail" name="email" class="form-input" placeholder="mario@hoteldolomiti.it" required>
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label" for="formPhone">Telefono / Cellulare *</label>
+                  <input type="tel" id="formPhone" name="telefono" class="form-input" placeholder="+39 333 1234567" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">A quale soluzione sei interessato?</label>
+                <div class="checkbox-group">
+                  <label class="custom-checkbox">
+                    <input type="checkbox" name="gootel" value="true" checked>
+                    <span><strong>Gootel:</strong> Gestionale Strutture Ricettive (Hotel, B&B, Residence)</span>
+                  </label>
+                  <label class="custom-checkbox">
+                    <input type="checkbox" name="appetito" value="true">
+                    <span><strong>Appetito:</strong> Gestionale Ristorante, Pizzeria e Bar</span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="formNotes">Note o richieste particolari (opzionale)</label>
+                <textarea id="formNotes" name="note" class="form-textarea" rows="3" placeholder="Numero camere, tavoli o gestione attuale..."></textarea>
+              </div>
+
+              <div class="form-group">
+                <label class="custom-checkbox">
+                  <input type="checkbox" name="consenso" value="true" required>
+                  <span style="font-size: 0.82rem; line-height: 1.4;">
+                    *Concedo il permesso a Betalink di contattarmi utilizzando i recapiti riportati sopra per concordare la demo o fornirmi informazioni commerciali (D.Lgs. 196/2003 e GDPR).
+                  </span>
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 10px;">
+                <span>Invia Richiesta Demo Gratuita</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- POPUP DEMO MODAL -->
+  <div class="modal-overlay" id="demoModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-container">
+      <button class="modal-close-btn" data-close-demo aria-label="Chiudi finestra">&times;</button>
+      
+      <div class="modal-header">
+        <h3 id="modalTitle">Richiedi una Demo Guidata</h3>
+        <p style="color: var(--text-secondary); font-size: 0.95rem;">
+          Scopri insieme a un nostro consulente la semplicità di Gootel e Appetito. Senza impegno.
+        </p>
+      </div>
+
+      <div class="modal-body">
+        <form class="contact-lead-form">
+          <div class="form-alert"></div>
+
+          <div class="form-group">
+            <label class="form-label" for="mName">Cognome e Nome *</label>
+            <input type="text" id="mName" name="nome" class="form-input" placeholder="Nome e Cognome" required>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="mEmail">Email *</label>
+              <input type="email" id="mEmail" name="email" class="form-input" placeholder="email@dominio.it" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="mPhone">Telefono *</label>
+              <input type="tel" id="mPhone" name="telefono" class="form-input" placeholder="Telefono" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Software da visionare:</label>
+            <div class="checkbox-group">
+              <label class="custom-checkbox">
+                <input type="checkbox" id="modalGootel" name="gootel" value="true" checked>
+                <span>Gootel · Gestionale Ricettivo</span>
+              </label>
+              <label class="custom-checkbox">
+                <input type="checkbox" id="modalAppetito" name="appetito" value="true" checked>
+                <span>Appetito · Gestionale Ristorante</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="custom-checkbox">
+              <input type="checkbox" name="consenso" value="true" required>
+              <span style="font-size: 0.8rem;">
+                *Concedo il permesso a Betalink di contattarmi ai recapiti indicati.
+              </span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 14px;">
+            Invia Richiesta Demo
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- POPUP CASE STUDY MODAL -->
+  <div class="modal-overlay" id="caseStudyModal" role="dialog" aria-modal="true" aria-labelledby="caseModalTitle">
+    <div class="modal-container" style="max-width: 860px;">
+      <button class="modal-close-btn" data-close-case aria-label="Chiudi finestra">&times;</button>
+      
+      <div class="modal-header">
+        <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
+          <span class="section-tag emerald" id="caseModalCategory" style="margin-bottom: 0;">Case Study Verificato</span>
+          <span id="caseModalLocation" style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">Andalo (TN)</span>
+        </div>
+        <h3 id="caseModalTitle" style="font-size: 1.8rem; color: var(--navy-900);">Hotel Diamant</h3>
+      </div>
+
+      <div class="case-study-modal-body">
+        <div class="case-study-media">
+          <img id="caseModalImg" src="assets/images/hotel_diamant.jpg" alt="Foto Hotel">
+          <div class="hotel-logo-capsule" style="bottom: 12px; right: 12px;">
+            <img id="caseModalLogo" src="assets/images/Logo_Diamant.png" alt="Logo">
+          </div>
+        </div>
+
+        <div class="case-study-details">
+          <div>
+            <h5 style="color: var(--text-muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">La Sfida Iniziale</h5>
+            <p id="caseModalChallenge" style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.5;">
+              Vecchio software installato su PC locale con rallentamenti nei weekend, code alla reception e timore di errori nelle scadenze per l'invio dei dati alla Questura.
+            </p>
+          </div>
+
+          <div>
+            <h5 style="color: var(--text-muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 4px;">La Soluzione Betalink</h5>
+            <p id="caseModalSolution" style="font-size: 0.92rem; color: var(--text-secondary); line-height: 1.5;">
+              Migrazione a Gootel Cloud con integrazione diretta Simple Booking, cassa telematica Epson e modulo automatizzato Alloggiati Web (PS) e ISTAT regionale.
+            </p>
+          </div>
+
+          <div class="case-study-stat-grid">
+            <div class="case-stat-item">
+              <p>Tempo Check-in</p>
+              <h5 id="caseModalStat1" style="color: var(--emerald-600); font-weight: 800;">-75%</h5>
+            </div>
+            <div class="case-stat-item">
+              <p>Overbooking OTA</p>
+              <h5 id="caseModalStat2" style="color: var(--primary-blue); font-weight: 800;">0 Casi</h5>
+            </div>
+            <div class="case-stat-item">
+              <p>Conformità PS</p>
+              <h5 id="caseModalStat3" style="color: var(--emerald-600); font-weight: 800;">100%</h5>
+            </div>
+          </div>
+
+          <blockquote id="caseModalQuote" style="font-size: 0.88rem; color: var(--text-secondary); font-style: italic; border-left: 3px solid var(--primary-blue); padding-left: 10px; margin: 4px 0;">
+            "Con Gootel il check-in è fulmineo e l'invio alla Questura è una formalità da 30 secondi."
+          </blockquote>
+
+          <div style="display: flex; gap: 10px; margin-top: 8px;">
+            <button class="btn btn-primary" style="flex: 1;" data-open-demo="both">
+              Richiedi Demo per la Tua Struttura
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="assets/images/logo.webp" alt="Betalink" style="height: 44px; width: auto; filter: brightness(1.2);">
+          <p>
+            Tecnologie cloud di nuova generazione per il settore ricettivo e la ristorazione. Sviluppato da albergatori per albergatori nelle Dolomiti di Brenta.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Soluzioni</h4>
+          <ul class="footer-nav">
+            <li><a href="#gootel">Gootel Hotel PMS</a></li>
+            <li><a href="#appetito">Appetito Ristò & Bar</a></li>
+            <li><a href="https://gootel.it/appetito/indexdemo.php" target="_blank" rel="noopener">Demo Live Appetito</a></li>
+            <li><a href="#simulatore">Simulatore Risparmio</a></li>
+            <li><a href="#integrazioni">Integrazioni Hardware</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigazione</h4>
+          <ul class="footer-nav">
+            <li><a href="#hero">Torna all'inizio</a></li>
+            <li><a href="#clienti">I Nostri Clienti</a></li>
+            <li><a href="#come-funziona">Come Funziona</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contatti">Contattaci</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Betalink Snc</h4>
+          <div class="footer-legal-badge">
+            <strong>Sede Legale & Operativa:</strong><br>
+            Via Rindole, 9/a<br>
+            38010 Andalo (TN) · Italia<br><br>
+            <strong>P.IVA:</strong> 02325090229<br>
+            <strong>Tel:</strong> <a href="tel:+393931447378" style="color: #38BDF8;">+39 393 144 7378</a><br>
+            <strong>Email:</strong> <a href="mailto:info@betalink.it" style="color: #38BDF8;">info@betalink.it</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Betalink Snc · Tutti i diritti riservati. Sviluppato nel cuore del Trentino.
+        </div>
+        <div>
+          <span>Affidabilità · Legalità Garantita · Tecnologia Cloud</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
