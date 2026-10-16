@@ -632,7 +632,7 @@ function initCaseStudyModal() {
 
   let activeCase = 'diamant';
 
-  function openCaseModal(key) {
+  function renderCaseModal(key) {
     activeCase = key || activeCase;
     const lang = document.documentElement.lang === 'en' ? 'en' : 'it';
     const data = caseData[lang][activeCase];
@@ -655,7 +655,10 @@ function initCaseStudyModal() {
     if (stat2El) stat2El.textContent = data.stat2;
     if (stat3El) stat3El.textContent = data.stat3;
     if (quoteEl) quoteEl.textContent = data.quote;
+  }
 
+  function openCaseModal(key) {
+    renderCaseModal(key);
     modal.classList.add('open');
     document.body.style.overflow = 'hidden';
   }
@@ -685,10 +688,10 @@ function initCaseStudyModal() {
     if (e.key === 'Escape' && modal.classList.contains('open')) closeCaseModal();
   });
 
+  // Pre-render immediately and on language change
+  renderCaseModal(activeCase);
   window.addEventListener('languageChanged', () => {
-    if (modal.classList.contains('open')) {
-      openCaseModal(activeCase);
-    }
+    renderCaseModal(activeCase);
   });
 }
 

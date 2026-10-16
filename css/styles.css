@@ -547,12 +547,6 @@ img {
 .reveal-delay-3 { transition-delay: 0.3s; }
 .reveal-delay-4 { transition-delay: 0.4s; }
 
-/* Subtle pulse glow for key cards */
-@keyframes subtlePulseGlow {
-  0%, 100% { box-shadow: 0 10px 25px -5px rgba(10, 37, 64, 0.07); }
-  50% { box-shadow: 0 15px 35px -5px rgba(0, 102, 204, 0.12); }
-}
-
 /* --- Hero Section --- */
 .hero-section {
   padding-top: calc(var(--header-height) + 60px);
@@ -583,19 +577,22 @@ img {
   box-shadow: var(--shadow-sm);
 }
 
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--emerald-500);
+  display: inline-block;
+  flex-shrink: 0;
+}
+
 .hero-pill .pulse-dot {
   width: 8px;
   height: 8px;
   border-radius: 50%;
   background-color: var(--emerald-500);
-  box-shadow: 0 0 10px var(--emerald-500);
-  animation: pulseGreen 2s infinite;
-}
-
-@keyframes pulseGreen {
-  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
-  70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
-  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+  display: inline-block;
+  flex-shrink: 0;
 }
 
 .hero-title {
@@ -814,7 +811,7 @@ img {
   transform: scale(1.015);
 }
 
-/* Floating Status Badges */
+/* Status Feature Chips (Solid & Reliable) */
 .floating-chip {
   position: absolute;
   background: #FFFFFF;
@@ -826,18 +823,12 @@ img {
   align-items: center;
   gap: 14px;
   z-index: 10;
-  animation: chipFloat 6s ease-in-out infinite alternate;
 }
 
 .chip-hotel-1 { top: 30px; left: 30px; }
-.chip-hotel-2 { bottom: 40px; right: 30px; animation-delay: -3s; }
+.chip-hotel-2 { bottom: 40px; right: 30px; }
 .chip-appetito-1 { top: 40px; right: 30px; }
-.chip-appetito-2 { bottom: 40px; left: 30px; animation-delay: -2s; }
-
-@keyframes chipFloat {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-8px); }
-}
+.chip-appetito-2 { bottom: 40px; left: 30px; }
 
 .chip-icon {
   width: 44px;
